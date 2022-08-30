@@ -1,0 +1,14 @@
+{
+    "name": "demo-realtime-vanillajs",
+    "version": "1.0.0",
+    "description": "Realtime Demo client for Omneedia",
+    "main": "index.html",
+    "scripts": {
+        "start": "serve"
+    },
+    "dependencies": {},
+    "devDependencies": {
+        "serve": "*"
+    },
+    "keywords": []
+}
