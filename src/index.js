@@ -41,7 +41,7 @@ function load() {
         .on('INSERT', function(v) {
             console.log('insert');
             console.log(v);
-            el('ul').innerHTML += `<li id="item_${v.new.id}">${v.new.newstitle}</li>`;
+            el('ul').innerHTML += `<li class="list-group-item" id="item_${v.new.id}">${v.new.newstitle}</li>`;
         })
         .subscribe(function(change) {
             console.log('change');
